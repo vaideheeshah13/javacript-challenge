@@ -51,7 +51,7 @@ button.on("click", () => {
   
     }
     else {
-      tbody.append("tr").append("td").text("No results found!"); 
+      tbody.append("tr").append("td").text("No results found, Please select a date from 1/1/2010 to 1/13/2010!"); 
     }
 })
 
@@ -60,3 +60,5 @@ resetbtn.on("click", () => {
   populate(data)
   console.log("Table reset")
 })
+
+//filter is not properly working
